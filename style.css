@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    background: #ABABAB;
+}
+.container{
+    margin: 10px 20px;
+}
+.bordered{
+    border: 1px solid #0E0E0E;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background: #FF0000;
+    margin-bottom: 20px;
+}
+.main-area .left-sidebar{
+    width: 29%;
+    background: #FFFFFF;
+    float: left;
+}
+.main-area .left-sidebar .sidebar-1{
+  height: 200px;
+  background: #FF00CE;
+  margin: 3px 5px;
+}
+.main-area .left-sidebar .sidebar-2{
+  height: 200px;
+  background: #FFF100;
+  margin: 3px 5px;
+}
+.main-area .right-content{
+    width: 70%;
+    height: 406px;
+    background: #17FF00;
+    float: left;
+    overflow: hidden;
+}
+.main-area .right-content .content-header{
+    width: 99%;
+    height: 80px;
+    background: #FF0000;
+    margin: 10px 10px 3px 3px;
+}
+.main-area .right-content .content-main .article-area{
+    width: 70%;
+}
+.main-area .right-content .content-main .article-area .article{
+    width: 95%;
+    background: #FFAF00;
+    height: 125px;
+    float: left;
+    margin: 3px;
+}
+.main-area .right-content .content-main .aside{
+    width: 32%;
+    height: 260px;
+    background: #FFF100;
+    overflow: hidden;
+}
+.main-area .right-content .content-footer{
+    width: 99%;
+    height: 25px;
+    background: #0033FF;
+    overflow: hidden;
+    margin: 5px 5px 2px 2px;
+}
+.footer{
+    width: 99%;
+    height: 80px;
+    background: #0033FF;
+    overflow: hidden;
+    margin-top: 10px;
+}
